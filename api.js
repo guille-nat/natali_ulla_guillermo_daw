@@ -3,7 +3,7 @@
 async function fetchData() {
     try {
         const container = document.getElementById("api-container");
-        if (container && container.textContent.trim() !== '') {
+        // if (container && container.textContent.trim() !== '') {
 
 
             container.innerHTML = `<sapn class="loading" >Consultando...<span>`
@@ -35,9 +35,9 @@ async function fetchData() {
 
             const response_clima = await clima.json()
             mostrarData(response_clima, ciudad)
-        } else {
+        //} else {
             container.innerHTML = `<sapn class="error" >Debe seleccionar una ciudad.<span>`
-        }
+        //}
 
     } catch (error) {
         container.innerHTML = `<sapn class="error"> Error al obtener el clima: ${error}<span>`
