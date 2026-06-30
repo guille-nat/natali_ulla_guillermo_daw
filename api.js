@@ -36,7 +36,7 @@ async function fetchData() {
             const response_clima = await clima.json()
             mostrarData(response_clima, ciudad)
         //} else {
-            container.innerHTML = `<sapn class="error" >Debe seleccionar una ciudad.<span>`
+            //container.innerHTML = `<sapn class="error" >Debe seleccionar una ciudad.<span>`
         //}
 
     } catch (error) {
