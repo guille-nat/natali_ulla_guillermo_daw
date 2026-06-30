@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    
+    align-items: center;
+    background-color: aliceblue;
+}
+.main{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    border: solid 1px #000;
+    width: 600px;
+    height: 400px;
+    border-radius: 30% 0 30% 0;
+    background:  rgb(138, 214, 245) ;
+}
+
+
+body h1{
+    margin: 2rem;
+    text-align: center;
+}
+
+#ciudad{
+    margin: 6px;
+    padding: 4px;
+}
+
+.clima-content {
+    display: flex;
+    flex-direction: column; 
+    padding: 1rem;
+    border: solid 1px #000;
+}
+
+.error{
+    color: red;
+    background-color: #fff;
+}
